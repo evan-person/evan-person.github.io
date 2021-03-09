@@ -3,32 +3,43 @@ style: light
 #theme: jekyll-theme-midnight
 remote_theme: riggraz/no-style-please
 
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
-
+  - jekyll-feed
+  - jekyll-seo-tag
+  
+  
 permalink: /:year/:month/:day/:title/
 
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
+#defaults:
+#  -
+#    scope:
+#      path: "" # an empty string here means all files in the project
+#      type: "posts"
+#    values:
+#      layout: "post"
 
-projects:
-  sort_by: pushed
+#projects:
+
+#  sort_by: pushed
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
+#  limit: 9
+#  exclude:
+#    archived: false
+#    forks: true
+#    projects:
     # - repo-name
 
 # social_media:
