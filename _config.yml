@@ -1,6 +1,8 @@
 layout: sidebar
 style: light
-theme: jekyll-theme-midnight
+#theme: jekyll-theme-midnight
+remote_theme: riggraz/no-style-please
+
 
 plugins:
   - jekyll-octicons
