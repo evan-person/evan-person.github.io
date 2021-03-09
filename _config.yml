@@ -1,4 +1,12 @@
-layout: sidebar
+title: Evan's Blog
+email: 
+
+baseurl: ""
+url: "http://evan-person.github.io"
+
+github_username:  evan-person
+
+#layout: sidebar
 style: light
 theme: jekyll-theme-midnight
 #remote_theme: riggraz/no-style-please
