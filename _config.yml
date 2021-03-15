@@ -6,19 +6,9 @@ url: "http://evan-person.github.io"
 
 github_username:  evan-person
 
-#layout: sidebar
-style: light
+layout: stacked
+style: dark
 theme: jekyll-theme-midnight
-#remote_theme: riggraz/no-style-please
-
-markdown: kramdown
-
-theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description in home page
-
 
 
 plugins:
@@ -28,29 +18,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   
-  
 permalink: /:year/:month/:day/:title/
+  
+  
 
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
-
-#projects:
-
- # sort_by: pushed
- # sort_by options:
-  #   - pushed
-  #   - stars
-#  limit: 9
-#  exclude:
-#    archived: false
-#    forks: true
-#    projects:
-    # - repo-name
+markdown: kramdown
 
 # social_media:
   # behance: your_username
